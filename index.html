@@ -12,7 +12,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#about-me">About Me</a></li>
+                <li><a id="home" href="#about-me">About Me</a></li>
                 <li><a href="#roadmap">Learning Roadmap</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -81,21 +81,46 @@
                     <li>CSS (learning)</li>
                 </ol>
             </details>
-            <section>
-                <h2 id="contact">Contact Me</h2>
-                <a href="mailto:kasimpasaoglu@windowslive.com"><button>Mail Me</button></a><br>
-                <a aria-label="Chat on WhatsApp" href="https://wa.me/905433010531" target="_blank"><img alt="Chat on WhatsApp" src="https://scontent.whatsapp.net/v/t39.8562-34/420096885_277459331727648_6533635286062607832_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=4cnD1QsI5MIQ7kNvgGldbr-&_nc_ht=scontent.whatsapp.net&oh=01_Q5AaIPdvLwTy1Y-Jk57HeOgNKw9Mk-oztuX3bOw79l0QN7eZ&oe=663C11A5" width="200"/>
-                </a><hr>
-                    <form action="mailto:kasimpasaoglu@windowslive.com" method="post" enctype="text/plain">
-                        <label for="name">Name:</label><br>
-                        <input type="text" name="name" id="name"><br>
-                        <label for="email">Email:</label><br>
-                        <input type="email" name="email" id="email"><br>
-                        <label for="message">Message:</label><br>
-                        <textarea name="message" id="message" rows="4" cols="50"></textarea><br>
-                        <input type="submit" value="Submit">
-                    </form>
-            </section>
+            <a class="button" href="#home">Go Top</a>
+        </section>
+        <section>
+            <h2 id="contact">Contact Me</h2>
+            <p>You can contact me via:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <a aria-label="Chat on WhatsApp" href="https://wa.me/905433010531" target="_blank">
+                                <img src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png"
+                                    alt="WhatsApp" width="50" />
+                            </a>
+                        </th>
+                        <th>
+                            <a aria-label="github" href="https://github.com/kasimpasaoglu" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="50">
+                            </a>
+                        </th>
+                        <th>
+                            <a aria-label="Instagram" href="https://www.instagram.com/kasimpasaoglu/" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png"
+                                    alt="Instagram" width="50">
+                            </a>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+            <form action="mailto:kasimpasaoglu@windowslive.com" method="post" enctype="text/plain">
+                <h3>Mail Me 👇</h3>
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" id="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="message" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <a class="button" href="#home">Go Top</a>
     </main>
 
 </body>
