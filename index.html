@@ -4,131 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Kasim Pasaoglu</title>
 </head>
 
 <body>
-    <header>
+    <header id="home">
+        <h1>KASIM PASAOGLU</h1>
+        <h2>A Student Front-End Developer</h2>
+    </header>
+    <div class="navbar">
         <nav>
             <ul>
-                <li><a id="home" href="#about-me">About Me</a></li>
-                <li><a href="#roadmap">Learning Roadmap</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="nav-btn" href="">About Me</a></li>
+                <li><a class="nav-btn" href="">Learning Roadmap</a></li>
+                <li><a class="nav-btn" href="">Contact Me</a></li>
+                <li><a class="nav-btn" href="#home">Go Top</a></li>
             </ul>
         </nav>
-        <h1>Kasim Pasaoglu</h1>
-        <p>A Student Front-End Developer</p>
-    </header>
+    </div>
     <main>
-        <section>
-            <h2>About Me</h2>
-            <aside>
-                <img src="./img/profile.jpeg" alt="profilepic">
-            </aside>
-            <p>Hi there! I'm <a href="https://github.com/kasimpasaoglu" target="_blank">Kasim Pasaoglu</a> hailing from <b>Turkey.</b>
-                Recently, I've delved into the exciting
-                world of front-end development, and I couldn't be more thrilled about it. Since May 1, 2024, I've been
-                immersing myself in courses on Udemy, with the invaluable guidance of <a
-                    href="https://github.com/hakanyalcinkaya" target="_blank">Hakan Yalcinkaya</a> It's an
-                exhilarating journey, and I'm currently working on my very first project to showcase on GitHub Pages.
-                Stay tuned for updates on my coding endeavors!</p>
-        </section>
-        <p class="notice">Since I've only learned HTML at the moment, I've used SimpleCSS to create this basic page.</p>
-        <section>
-            <h2 id="roadmap">Learning Roadmap</h2>
-            <p>As I chart my course through the vast landscape of front-end development, React stands out as a pivotal
-                milestone in my learning roadmap. Building upon my foundational knowledge of HTML, CSS, and JavaScript,
-                I'm eager to immerse myself in the React ecosystem. With its component-based architecture and
-                declarative syntax, React offers a powerful toolkit for creating dynamic and interactive user
-                interfaces. By mastering React, I aim to elevate my development skills to the next level, unlocking the
-                ability to build scalable and efficient web applications. Through hands-on projects and dedicated study,
-                I'm committed to harnessing the full potential of React and empowering myself as a proficient front-end
-                developer.</p>
-
-            <details>
-                <summary>Roadmap</summary>
-                <img src="./img/roadmap.png" alt="roadmap">
-            </details>
-            <details>
-                <summary>List of Accomplishments to Date:</summary>
-                <ol>
-                    <li>Installation</li>
-                    <li>Note-taking methods, Markdown, Chrome usage, and productivity</li>
-                    <li>HTML
-                        <ul>
-                            <li>Headings, paragraphs</li>
-                            <li>Building HTML structure</li>
-                            <li>Emmet shortcuts</li>
-                            <li>Images, links</li>
-                            <li>Tables</li>
-                            <li>Other HTML tags</li>
-                        </ul>
-                    </li>
-                    <li>Effective usage of VS Code
-                        <ul>
-                            <li>Settings</li>
-                            <li>Shortcuts</li>
-                            <li>Code Snippets</li>
-                        </ul>
-                    </li>
-                    <li>GIT, VCS, and GitHub
-                        <ul>
-                            <li>What is VCS</li>
-                            <li>Terminal commands</li>
-                            <li>Working with multiple branches</li>
-                            <li>Transferring projects to GitHub or importing projects from GitHub</li>
-                        </ul>
-                    </li>
-                    <li>CSS (learning)</li>
-                </ol>
-            </details>
-            <a class="button" href="#home">Go Top</a>
-        </section>
-        <section>
-            <h2 id="contact">Contact Me</h2>
-            <p>You can contact me via:</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th>
-                            <a aria-label="Chat on WhatsApp" href="https://wa.me/905433010531" target="_blank">
-                                <img src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png"
-                                    alt="WhatsApp" width="50" />
-                            </a>
-                        </th>
-                        <th>
-                            <a aria-label="github" href="https://github.com/kasimpasaoglu" target="_blank">
-                                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="50">
-                            </a>
-                        </th>
-                        <th>
-                            <a aria-label="Instagram" href="https://www.instagram.com/kasimpasaoglu/" target="_blank">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png"
-                                    alt="Instagram" width="50">
-                            </a>
-                        </th>
-                    </tr>
-                </thead>
-            </table>
-            <form action="mailto:kasimpasaoglu@windowslive.com" method="post" enctype="text/plain">
-                <h3>Mail Me 👇</h3>
-                <label for="name">Name:</label><br>
-                <input type="text" name="name" id="name"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" name="email" id="email"><br>
-                <label for="message">Message:</label><br>
-                <textarea name="message" id="message" rows="4" cols="50"></textarea><br>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-        <a class="button" href="#home">Go Top</a>
     </main>
     <footer>
-        <p>This page created by <a href="https://github.com/kasimpasaoglu" target="_blank">Kasim Pasaoglu</a>. Used <a
-                href="https://simplecss.org/" target="_blank">SimpleCSS</a> CDN</p>
-    </footer>
 
+    </footer>
 </body>
 
 </html>
