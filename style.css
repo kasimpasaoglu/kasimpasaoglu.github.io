@@ -34,7 +34,8 @@ body {
 }
 
 /* Header Start */
-header {
+header,
+footer {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -192,3 +193,104 @@ details>img {
 }
 
 /* LEARNING ROADMAP END*/
+
+/* CONTACT START */
+
+.container2 {
+    max-width: var(--box-size);
+    margin: 10px auto;
+    padding: 0 20px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* FORM Start */
+form>h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form>label {
+    margin-bottom: 0px;
+    font-size: 1.1em;
+}
+
+form>input {
+    display: flex;
+    max-width: 500px;
+    max-height: 50px;
+
+}
+
+form>textarea {
+    display: flex;
+    max-width: 500px;
+}
+
+form>textarea,
+form>input {
+    padding: 5px;
+    box-shadow: 5px 5px 5px var(--btn-color);
+}
+.input-button {
+    text-align: center;
+    background-color: var(--btn-color);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--border-color);
+    border: 2px solid var(--border-color);
+    color: var(--bg-color);
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+.input-button:hover {
+    background-color: var(--body-color);
+    color: var(--bg-color);
+    box-shadow: 5px 5px 5px var(--body-color);
+    border: 2px solid var(--body-color);
+}
+/* FORM End */
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.links>a>img {
+    max-width: 50px;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    text-align: center;
+}
+/* CONTACT END */
+
+/* FOOTER START */
+
+footer>p {
+    font-weight: 200;
+    font-size: 0.8em;
+}
