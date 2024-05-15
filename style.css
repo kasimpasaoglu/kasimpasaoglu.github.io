@@ -294,3 +294,7 @@ footer>p {
     font-weight: 200;
     font-size: 0.8em;
 }
+
+html {
+    scroll-padding-top: 120px;
+  }
