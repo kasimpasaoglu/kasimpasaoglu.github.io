@@ -1,4 +1,8 @@
 # Kasim Pasaoglu
 - Hello, I'm Kasim. I have just started to learn front-end from begining
-- So far i have learned basics of HTML, VCS and GIT.
-- This is my first project created with classless css.
+- This is my first project to monitor improvements i had.
+
+## Update (16.05.2024)
+- Deleted simplecss to write my own CSS
+- Changed SCSS format
+- changed variables and color palette
