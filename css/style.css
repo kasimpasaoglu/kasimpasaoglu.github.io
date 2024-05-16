@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+}
+
+html {
+  scroll-padding-top: 120px;
+}
+
+body {
+  background-color: #a4b3c6;
+  color: hsl(211, 53%, 11%);
+}
+
+article, section {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 0 20px;
+  background-color: #d3dae4;
+  color: hsl(211, 53%, 11%);
+  border: 2px solid hsl(211, 53%, 11%);
+  border-radius: 10px;
+}
+article > h2, section > h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: xx-large;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #d3dae4;
+  color: hsl(211, 53%, 11%);
+  border-bottom: 2px solid hsl(211, 53%, 11%);
+  margin: 0 auto;
+  width: 100%;
+}
+header > h1 {
+  text-align: left;
+}
+header > h2 {
+  text-align: right;
+}
+
+.navbar {
+  display: flex;
+  max-width: 100%;
+  background-color: #d3dae4;
+  margin: 0 auto;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  border-bottom: 5px solid hsl(211, 53%, 11%);
+  border-radius: 0 0 30px 30px;
+  z-index: 1;
+}
+.navbar > nav > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  margin: 20px;
+}
+.navbar > nav > ul > li > a {
+  text-decoration: none;
+  color: #d3dae4;
+  background-color: hsl(219, 37%, 17%);
+  padding: 6px 12px;
+  border-radius: 10px;
+  display: flex;
+}
+.navbar > nav > ul > li > a:hover {
+  color: white;
+  background-color: #131b2a;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+.content > p {
+  font-weight: 200;
+  font-size: 1.3em;
+}
+.content > p > a {
+  text-decoration: none;
+  color: hsl(211, 53%, 11%);
+}
+.content > p > a:hover {
+  text-decoration: underline;
+}
+.content > aside {
+  position: relative;
+  bottom: 30px;
+  z-index: 0;
+}
+.content > aside > img {
+  max-width: 200px;
+  height: auto;
+  padding: 5px;
+  background-color: #b4c0d0;
+  border: 2px solid hsl(211, 53%, 11%);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content > aside {
+    position: static;
+  }
+}
+details {
+  padding: 20px;
+  display: flex;
+}
+details > summary {
+  padding: 10px;
+}
+details > img {
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+  background-color: #d3dae4;
+  border: 2px solid hsl(211, 53%, 11%);
+  border-radius: 10px;
+}
+details > ol {
+  display: inline-block;
+  width: 100%;
+}
+details > ol > li {
+  padding: 10px 40px;
+}
+details > ol > li > ul {
+  padding: 10px;
+}
+details > ol > li > ul > li {
+  padding: 10px 40px;
+}
+details > ol > li:last-child {
+  color: hsl(214, 23%, 56%);
+}
+
+section > .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section > .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+section > .links > a > img {
+  max-width: 50px;
+  margin: 20px 0;
+}
+section > .links > a > img:hover {
+  border: 2px solid hsl(211, 53%, 11%);
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+form > h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+form > label {
+  font-size: 1.1em;
+}
+form > input {
+  display: flex;
+  padding: 5px;
+  box-shadow: 5px 5px 5px var(--btn-color);
+  max-width: 500px;
+  max-height: 50px;
+}
+form > textarea {
+  display: flex;
+  padding: 5px;
+  box-shadow: 5px 5px 5px var(--btn-color);
+  max-width: 500px;
+}
+form > .input-button {
+  text-align: center;
+  background-color: hsl(219, 37%, 17%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(211, 53%, 11%);
+  border: 2px solid hsl(211, 53%, 11%);
+  color: #d3dae4;
+  margin: 0 auto;
+  font-size: 1.2em;
+  width: 200px;
+  justify-content: center;
+}
+form > .input-button:hover {
+  color: white;
+  background-color: #131b2a;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #d3dae4;
+  color: hsl(211, 53%, 11%);
+  border-bottom: 2px solid hsl(211, 53%, 11%);
+  margin: 0 auto;
+  width: 100%;
+}
+footer > p {
+  font-weight: 500;
+  font-size: 0.8em;
+}/*# sourceMappingURL=style.css.map */

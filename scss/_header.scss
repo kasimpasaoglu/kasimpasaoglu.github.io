@@ -1,0 +1,14 @@
+// Header Start 
+header {
+    @include banner_mixin();
+
+    &>h1 {
+        text-align: left;
+    }
+
+    &>h2 {
+        text-align: right;
+    }
+}
+
+// Header End

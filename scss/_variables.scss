@@ -1,0 +1,50 @@
+$white: hsl(75, 6, 87);
+$light-white: hsl(214, 23, 56);
+$light-blue: hsl(212, 29, 36);
+$blue: hsl(219, 37, 17);
+$dark-blue: hsl(211, 53, 11);
+
+$box-size: 1200px;
+
+$body-color: lighten($light-white, 20%);
+$bg-color: lighten($light-white, 30%);
+$text-color: $dark-blue;
+$border-color: $dark-blue;
+$btn-color: $blue;
+$darken-btn-color: darken($btn-color, 5%);
+$darken-body-color: darken($body-color, 5%);
+
+
+@mixin banner_mixin() {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: $bg-color;
+  color: $text-color;
+  border-bottom: 2px solid $border-color;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@mixin container_mixin () {
+  max-width: $box-size;
+  margin: 10px auto;
+  padding: 0 20px;
+  background-color: $bg-color;
+  color: $text-color;
+  border: 2px solid $border-color;
+  border-radius: 10px;
+}
+
+@mixin form_input () {
+  display: flex;
+  padding: 5px;
+  box-shadow: 5px 5px 5px var(--btn-color);
+}
+
+@mixin btn_hover () {
+  color: white;
+  background-color: $darken-btn-color;
+}

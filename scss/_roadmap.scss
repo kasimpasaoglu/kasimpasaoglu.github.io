@@ -1,0 +1,38 @@
+details {
+    padding: 20px;
+    display: flex;
+
+    &>summary {
+        padding: 10px;
+    }
+
+    &>img {
+        width: 100%;
+        align-items: center;
+        padding: 5px;
+        background-color: $bg-color;
+        border: 2px solid $border-color;
+        border-radius: 10px;
+    }
+
+    &>ol {
+        display: inline-block;
+        width: 100%;
+
+        &>li {
+            padding: 10px 40px;
+
+            &>ul {
+                padding: 10px;
+
+                &>li {
+                    padding: 10px 40px;
+                }
+            }
+            &:last-child{
+                color: $light-white;
+            }
+        }
+    }
+
+}

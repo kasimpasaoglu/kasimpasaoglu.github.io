@@ -1,0 +1,8 @@
+footer {
+    @include banner_mixin();
+
+    &>p {
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+}
