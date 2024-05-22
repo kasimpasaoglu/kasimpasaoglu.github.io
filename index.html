@@ -42,6 +42,24 @@
                 padding: 5px !important;
             }
         }
+
+        details ul {
+            opacity: 0;
+        }
+
+        details[open] ul {
+            animation: fadeIn 1s linear forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
     </style>
     <title>Kasim Pasaoglu</title>
 </head>
@@ -140,7 +158,7 @@
                                 <li class="p-2">
                                     <details>
                                         <summary>HTML</summary>
-                                        <ul>
+                                        <ul class="bg-body-secondary rounded shadow">
                                             <li>Headings, paragraphs</li>
                                             <li>Building HTML structure</li>
                                             <li>Emmet shortcuts</li>
@@ -153,7 +171,7 @@
                                 <li class="p-2">
                                     <details>
                                         <summary>Effective usage of VS Code</summary>
-                                        <ul>
+                                        <ul class="bg-body-secondary rounded shadow">
                                             <li>Settings</li>
                                             <li>Shortcuts</li>
                                             <li>Code Snippets</li>
@@ -163,7 +181,7 @@
                                 <li class="p-2">
                                     <details>
                                         <summary>GIT, VCS, and GitHub</summary>
-                                        <ul>
+                                        <ul class="bg-body-secondary rounded shadow">
                                             <li>What is VCS</li>
                                             <li>Terminal commands</li>
                                             <li>Working with multiple branches</li>
@@ -174,7 +192,7 @@
                                 <li class="p-2">
                                     <details>
                                         <summary>CSS</summary>
-                                        <ul>
+                                        <ul class="bg-body-secondary rounded shadow">
                                             <li>What is CSS</li>
                                             <li>CSS Definitions</li>
                                             <li>CSS Writing Rules</li>
@@ -199,7 +217,7 @@
                                 <li class="p-2">
                                     <details>
                                         <summary>SASS & SCSS</summary>
-                                        <ul>
+                                        <ul class="bg-body-secondary rounded shadow">
                                             <li>What is SASS / SCSS? What are the Differences?</li>
                                             <li>Using SCSS online and in a project.</li>
                                             <li>SCSS Setup in VS Code</li>
@@ -214,7 +232,7 @@
                                 <li class="p-2">
                                     <details>
                                         <summary>BOOTSTRAP</summary>
-                                        <ul>
+                                        <ul class="bg-body-secondary rounded shadow">
                                             <li>What is Bootstrap</li>
                                             <li>Exploring Bootstrap Features</li>
                                             <li>Standardized Colors in Bootstrap</li>
