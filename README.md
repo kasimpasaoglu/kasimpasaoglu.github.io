@@ -6,3 +6,8 @@
 - Deleted simplecss to write my own CSS
 - Changed SCSS format
 - changed variables and color palette
+
+## Update (22.05.2024)
+
+- Deleted SCSS files
+- Used Bootstrap
