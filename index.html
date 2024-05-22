@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -10,151 +10,261 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        html {
+            scroll-padding-top: 80px;
+        }
+    </style>
     <title>Kasim Pasaoglu</title>
 </head>
 
-<body>
-    <header id="home">
-        <h1>KASIM PASAOGLU</h1>
-        <h2>A Student Front-End Developer</h2>
-    </header>
-    <div class="navbar">
-        <nav>
-            <ul>
-                <li><a class="nav-btn" href="#title">About Me</a></li>
-                <li><a class="nav-btn" href="#roadmap">Learning Roadmap</a></li>
-                <li><a class="nav-btn" href="#contact">Contact Me</a></li>
-                <li><a class="nav-btn" href="#home">Go Top</a></li>
-            </ul>
-        </nav>
-    </div>
-    <main>
-        <article>
-            <h2 id="title">About Me</h2>
-            <div class="content">
-                <p>Hi there! I'm <a href="https://github.com/kasimpasaoglu" target="_blank">Kasim
-                        Pasaoglu</a> hailing from Turkey. Recently, I've delved into the exciting world of front-end
-                    development, and I couldn't be more thrilled about it. Since May 1, 2024, I've been immersing myself
-                    in courses on Udemy, with the invaluable guidance of <a href="https://github.com/hakanyalcinkaya"
-                        target="_blank">Hakan Yalcinkaya</a>. I also receive
-                    tremendous support from my friend <a href="https://github.com/umitalp">Umit Alp
-                        Acarlar</a>, a Senior Software Engineer.<br><br>It's an
-                    exhilarating journey, and I'm currently working on my very first project to showcase on GitHub
-                    Pages. Stay tuned for updates on my coding endeavors!</p>
-                <aside>
-                    <img src="./img/profile.jpeg" alt="profile picture">
-                </aside>
+<body id="home" class="bg-secondary bg-gradient">
+    <!-- Nav Bar Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow sticky-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kasim Pasaoglu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#title">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#roadmap">Learning Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Go Top</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </nav>
+    <!-- Nav Bar End -->
+
+    <!-- About Me Start -->
+    <main>
+        <article class="container-md card my-5 p-3 shadow">
+            <h2 id="title" class="text-center p-3 fw-bold">About Me</h2>
+            <div class="row p-4">
+                <div class="col-md-9">
+                    <p class="fs-5 fw-meduim">Hi there! I'm <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover text-reset fw-semibold" href="https://github.com/kasimpasaoglu" target="_blank">Kasim
+                            Pasaoglu</a> hailing from Turkey. Recently, I've delved into the exciting world of front-end
+                        development, and I couldn't be more thrilled about it. Since May 1, 2024, I've been immersing
+                        myself
+                        in courses on Udemy, with the invaluable guidance of <a
+                            class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover text-reset fw-semibold" href="https://github.com/hakanyalcinkaya" target="_blank">Hakan Yalcinkaya</a>. I also
+                        receive
+                        tremendous support from my friend <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover text-reset fw-semibold" href="https://github.com/umitalp">Umit Alp
+                            Acarlar</a>, a Senior Software Engineer.<br>It's an
+                        exhilarating journey, and I'm currently working on my very first project to showcase on GitHub
+                        Pages. Stay tuned for updates on my coding endeavors!</p>
+                </div>
+                <div class="col-md-3 text-right">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="./img/profile-mobile.jpg">
+                        <img class="img-thumbnail shadow" src="./img/profile-mobile.jpg" alt="profile picture">
+                    </picture>
+                </div>
         </article>
-        <article>
-            <h2 id="roadmap">Learning Roadmap</h2>
-            <details>
-                <summary>ROADMAP</summary>
-                <img src="./img/roadmap.png" alt="roadmap">
-            </details>
-            <details>
-                <summary>LIST OF ACCOMPLISHMENTS TO DATE</summary>
-                <ol class="lad">
-                    <li>Installation</li>
-                    <li>Note-taking methods, markdown, chrome usage, and productivity</li>
-                    <li>HTML
-                        <ul>
-                            <li>Headings, paragraphs</li>
-                            <li>Building HTML structure</li>
-                            <li>Emmet shortcuts</li>
-                            <li>Images, links</li>
-                            <li>Tables</li>
-                            <li>Other HTML tags</li>
-                        </ul>
-                    </li>
-                    <li>Effective usage of VS Code
-                        <ul>
-                            <li>Settings</li>
-                            <li>Shortcuts</li>
-                            <li>Code Snippets</li>
-                        </ul>
-                    </li>
-                    <li>GIT, VCS, and GitHub
-                        <ul>
-                            <li>What is VCS</li>
-                            <li>Terminal commands</li>
-                            <li>Working with multiple branches</li>
-                            <li>Transferring projects to GitHub or importing projects from GitHub</li>
-                        </ul>
-                    </li>
-                    <li>CSS
-                        <ul>
-                            <li>What is CSS</li>
-                            <li>CSS Definitions</li>
-                            <li>CSS Writing Rules</li>
-                            <li>CSS Selectors</li>
-                            <li>Understanding Block, Inline, and Inline Block Structures</li>
-                            <li>Box Properties: Margin, Padding, Border, Width</li>
-                            <li>Visibility</li>
-                            <li>Hover</li>
-                            <li>CSS Reset and Normalize</li>
-                            <li>Usage of Background Image</li>
-                            <li>Color Definitions</li>
-                            <li>Text Properties</li>
-                            <li>Font Size / Font Family</li>
-                            <li>Float</li>
-                            <li>:root Definitions</li>
-                            <li>CSS Positions</li>
-                            <li>Working with Media Queries</li>
-                            <li>FlexBox and flex commands</li>
-                        </ul>
-                    </li>
-                    <li>SASS & SCSS
-                        <ul>
-                            <li>What is SASS / SCSS? What are the Differences?</li>
-                            <li>Using SCSS online and in a project.</li>
-                            <li>SCSS Setup in VS Code</li>
-                            <li>Using Variables, Import, Nesting</li>
-                            <li>Using Parent Selector, Mixin, Extend</li>
-                            <li>Using Interpolation, Each, For and Map</li>
-                            <li>Using Lists to Store Multiple Variables</li>
-                            <li>Using SCSS Color Functions</li>
-                        </ul>
-                    </li>
-                    <li>BOOTSTRAP (Learning)</li>
-                </ol>
-            </details>
-        </article>
-        <section>
-            <h2 id="contact">Contact Me</h2>
-            <div class="contact">
-                <div>
-                    <form action="https://formsubmit.co/kasimpasaoglu@windowslive.com" method="post">
-                        <h3>Send an e-Mail👇</h3>
-                        <label for="name">Name:</label><br>
-                        <input type="text" name="name" id="name"><br>
-                        <label for="email">Email:</label><br>
-                        <input type="email" name="email" id="email"><br>
-                        <label for="message">Message:</label><br>
-                        <textarea name="message" id="message" rows="4" cols="50"></textarea><br>
-                        <input class="input-button" type="submit" value="Submit">
-                    </form>
+        <!-- About Me End -->
+
+        <!-- Roadmap Start -->
+        <article class="container-md flex-column column justify-content-center card my-5 p-4 shadow">
+            <h2 id="roadmap" class="text-center p-3 fw-bold">Learning Roadmap</h2>
+            <p class="fs-5 p-3">This section provides a snapshot of my journey into front-end development. The image
+                below offers a
+                brief overview of my progress, while the detailed list in the accordion further elaborates on each
+                step I've taken. Dive in to see what I've accomplished so far and what I'm currently working on.</p>
+            <img class="img-thumbnail my-3 p-5 shadow" src="./img/roadmap.png" alt="roadmap">
+
+            <div class="accordion shadow" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            LIST OF ACCOMPLISHMENTS TO DATE
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li class="p-2">
+                                    <details>
+                                        <summary>Installation</summary>
+                                    </details>
+                                </li>
+                                <li class="p-2">
+                                    <details>
+                                        <summary>Note-taking methods, markdown, chrome usage, and productivity</summary>
+                                    </details>
+                                </li>
+                                <li class="p-2">
+                                    <details>
+                                        <summary>HTML</summary>
+                                        <ul>
+                                            <li>Headings, paragraphs</li>
+                                            <li>Building HTML structure</li>
+                                            <li>Emmet shortcuts</li>
+                                            <li>Images, links</li>
+                                            <li>Tables</li>
+                                            <li>Other HTML tags</li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li class="p-2">
+                                    <details>
+                                        <summary>Effective usage of VS Code</summary>
+                                        <ul>
+                                            <li>Settings</li>
+                                            <li>Shortcuts</li>
+                                            <li>Code Snippets</li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li class="p-2">
+                                    <details>
+                                        <summary>GIT, VCS, and GitHub</summary>
+                                        <ul>
+                                            <li>What is VCS</li>
+                                            <li>Terminal commands</li>
+                                            <li>Working with multiple branches</li>
+                                            <li>Transferring projects to GitHub or importing projects from GitHub</li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li class="p-2">
+                                    <details>
+                                        <summary>CSS</summary>
+                                        <ul>
+                                            <li>What is CSS</li>
+                                            <li>CSS Definitions</li>
+                                            <li>CSS Writing Rules</li>
+                                            <li>CSS Selectors</li>
+                                            <li>Understanding Block, Inline, and Inline Block Structures</li>
+                                            <li>Box Properties: Margin, Padding, Border, Width</li>
+                                            <li>Visibility</li>
+                                            <li>Hover</li>
+                                            <li>CSS Reset and Normalize</li>
+                                            <li>Usage of Background Image</li>
+                                            <li>Color Definitions</li>
+                                            <li>Text Properties</li>
+                                            <li>Font Size / Font Family</li>
+                                            <li>Float</li>
+                                            <li>:root Definitions</li>
+                                            <li>CSS Positions</li>
+                                            <li>Working with Media Queries</li>
+                                            <li>FlexBox and flex commands</li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li class="p-2">
+                                    <details>
+                                        <summary>SASS & SCSS</summary>
+                                        <ul>
+                                            <li>What is SASS / SCSS? What are the Differences?</li>
+                                            <li>Using SCSS online and in a project.</li>
+                                            <li>SCSS Setup in VS Code</li>
+                                            <li>Using Variables, Import, Nesting</li>
+                                            <li>Using Parent Selector, Mixin, Extend</li>
+                                            <li>Using Interpolation, Each, For and Map</li>
+                                            <li>Using Lists to Store Multiple Variables</li>
+                                            <li>Using SCSS Color Functions</li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li class="p-2">
+                                    <details>
+                                        <summary>BOOTSTRAP</summary>
+                                        <ul>
+                                            <li>What is Bootstrap</li>
+                                            <li>Exploring Bootstrap Features</li>
+                                            <li>Standardized Colors in Bootstrap</li>
+                                            <li>Concepts of UI and UX</li>
+                                            <li>Container and Grid System</li>
+                                            <li>Grid System in Responsive Structures</li>
+                                            <li>Using Reordering in Responsive Structures</li>
+                                            <li>Usage of Margin and Padding</li>
+                                            <li>Hiding and Showing Structures Responsively</li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li class="p-2">
+                                    <details>
+                                        <summary>JAVASCRIPT (Learning)</summary>
+                                    </details>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="links">
-                <a aria-label="Chat on WhatsApp" href="https://wa.me/905433010531" target="_blank">
-                    <img src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png"
-                        alt="WhatsApp" />
+        </article>
+        <!-- Roadmap End -->
+
+        <!-- Contact Me Start -->
+
+
+        <section class="container-md card my-5 p-3 shadow">
+            <h2 id="contact" class="text-center p-3 mb-3 fw-bold">Contact Me</h2>
+            <div class="d-flex gap-3 justify-content-center mb-5">
+                <a class="icon-link-hover text-dark" style="--bs-icon-link-transform: translate3d(0, -.325rem, 0);" aria-label="Chat on WhatsApp" href="https://wa.me/905433010531"
+                    target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                    </svg>
                 </a>
-                <a aria-label="github" href="https://github.com/kasimpasaoglu" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" />
+                <a class="icon-link-hover text-dark" style="--bs-icon-link-transform: translate3d(0, -.325rem, 0);" aria-label="github" href="https://github.com/kasimpasaoglu"
+                    target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                    </svg>
                 </a>
-                <a aria-label="Instagram" href="https://www.instagram.com/kasimpasaoglu/" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png"
-                        alt="Instagram" />
+                <a class="icon-link-hover text-dark" style="--bs-icon-link-transform: translate3d(0, -.325rem, 0);" aria-label="Instagram" href="https://www.instagram.com/kasimpasaoglu/"
+                    target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
                 </a>
             </div>
+            <form class="d-grid gap-2 col-6 mx-auto card shadow py-5 justify-content-center mb-3"
+                action="https://formsubmit.co/kasimpasaoglu@windowslive.com" method="post">
+                <h3 class="mb-5 text-center">Send an e-Mail👇</h3>
+                <label class="mb-0 form-label" for="name">Name:</label><br>
+                <input class="form-control" type="text" name="name" id="name" placeholder="Name"><br>
+                <label class="mb-0 form-label" for="email">Email:</label><br>
+                <input class="form-control" type="email" name="email" id="email" placeholder="name@example.com"><br>
+                <label class="mb-0 form-label" for="message">Message:</label><br>
+                <textarea class="form-control" name="message" id="message" rows="3" cols="50"
+                    placeholder="Your message..."></textarea><br>
+                <input class="btn btn-dark" type="submit" value="Submit">
+            </form>
+
         </section>
     </main>
-    <footer>
-        <p>Built using basic CSS and HTML knowledge. Please feel free to reach out to me on my profile page for
+    <!-- Contact Me End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-center text-white mt-0">
+    <footer class="">
+        <p>Built using <a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://getbootstrap.com/" target="_blank">Bootstrap</a> knowledge. Please feel free to
+            reach out to me on my profile page for
             assistance and advice.</p>
-    </footer>
+        </footer>
+    </div>
+    <!-- Footer End -->
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
