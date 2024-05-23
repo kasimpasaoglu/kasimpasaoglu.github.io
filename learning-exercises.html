@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        html {
+            scroll-padding-top: 80px;
+        }
+
+        @media (max-width: 768px) {
+            html {
+                scroll-padding-top: 240px
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            .container-md,
+            .container-fluid {
+                margin-top: 20px !important;
+                margin-bottom: 10px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            #profile {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            #roadmap-img {
+                padding: 5px !important;
+            }
+        }
+
+        details ul {
+            opacity: 0;
+        }
+
+        details[open] ul {
+            animation: fadeIn 1s linear forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+    <title>Kasim Pasaoglu</title>
+</head>
+
+<body id="home" class="bg-secondary">
+    <!-- Nav Bar Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow sticky-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Kasim Pasaoglu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./learning-exercises.html">Learning Exercises</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Go Top</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Bar End -->
+    <main>
+        <article class="container-md card my-5 p-5 shadow">
+            <h2 class="text-center p-3 fw-bold">My projects and Exercises</h2>
+            <p class="fs-5 fw-meduim p-3">This page showcases a collection of simple static web pages that I have created as part of my learning journey.🌱 These projects were developed primarily for educational purposes and do not have real-world applications. They serve as a means to practice and reinforce the concepts and skills I have learned. Feel free to browse through these exercises, and don't hesitate to reach out if you have any questions or feedback. <br><br> The <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover text-reset fw-semibold" href="https://kasimpasaoglu.github.io/" target="_blank" rel="noopener noreferrer">GitHub.io</a> page you're currently on is my very first project, and I'm constantly updating it as I learn new things, striving to make it more functional and aesthetically pleasing.💻 Beyond just introducing myself, this page serves as a platform where I apply and test my newfound knowledge. The projects shared below are merely archived pages to track my progress.📚 Hopefully, as I evolve into a professional front-end developer, I'll rename the page to "References" and transform it into a space where I showcase professional projects and applications crafted in my career journey.😊🚀</p>
+        </article>
+        <article class="container-md card shadow">
+            <div class="row justify-content-center">
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 shadow">
+                        <img src="./img/html1ss.png" class="card-img-top" alt="html page 1">
+                        <div class="card-body">
+                            <h5 class="card-title">1. HTML Exercise</h5>
+                            <p class="card-text">This project was pivotal in honing my HTML skills. Leveraging only HTML and simple CSS through CDNs, I crafted a multi-page static website. Through this endeavor, I gained hands-on experience in structuring web content effectively and learned the fundamentals of website navigation.</p>
+                            <a href="https://kasimpasaogluhtml.netlify.app/" target="_blank" class="btn btn-primary">Go to Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 shadow">
+                        <img src="./img/html2ss.png" class="card-img-top" alt="html page 2">
+                        <div class="card-body">
+                            <h5 class="card-title">2. HTML Exercise</h5>
+                            <p class="card-text">In this project, I strengthened my HTML skills by creating a website for a company, simulating the process as if I were working for a friend. I utilized my HTML knowledge and ready-made CSS services to accomplish the task.</p>
+                            <a href="https://kasimpasaogluhtml2.netlify.app/" target="_blank" class="btn btn-primary">Go to Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 shadow">
+                        <img src="./img/css1ss.png" class="card-img-top" alt="css page 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloning PicoCSS</h5>
+                            <p class="card-text">In this project, I delved into CSS fundamentals by replicating the PicoCSS structure with my own CSS code. By meticulously examining the PicoCSS documentation, I aimed to create my own CSS structure as closely as possible. This provided a valuable exercise in understanding CSS principles and techniques.</p>
+                            <a href="https://pico-clone-kasim.netlify.app/" class="btn btn-primary">Go to Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 shadow">
+                        <img src="./img/css2ss.png" class="card-img-top" alt="css page 2">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS Exercise</h5>
+                            <p class="card-text">I crafted a website from scratch using HTML and CSS, experimenting with various colors and layouts. Due to limited exposure to concepts like flex and media queries, the design is tailored primarily for desktop screens.</p>
+                            <a href="https://css-training-kasim.netlify.app/" class="btn btn-primary">Go to Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 shadow">
+                        <img src="./img/scss.png" class="card-img-top" alt="scss page">
+                        <div class="card-body">
+                            <h5 class="card-title">SCSS Exercise</h5>
+                            <p class="card-text">I tackled a challenge I found on Frontend Mentor, striving to replicate the structures as faithfully as possible using SCSS. Additionally, I made the page mobile-responsive with flexbox and media queries.</p>
+                            <a href="https://scsstraining.netlify.app/" class="btn btn-primary">Go to Page</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card h-100 shadow">
+                        <img src="./img/bootstrapss.png" class="card-img-top" alt="bootstrap page">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap Exercise</h5>
+                            <p class="card-text">By grasping the fundamentals and logic of Bootstrap, I created a page. Without establishing a custom CSS structure, I customized various usage examples by copying basic Bootstrap knowledge, tailoring them to my needs.</p>
+                            <a href="https://bootstraptraining-kasim.netlify.app/" class="btn btn-primary">Go ro Page</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </article>
+    </main>
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-center text-white mt-3">
+        <footer class="">
+            <p>Built using basic <a
+                    class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                    href="https://getbootstrap.com/" target="_blank">Bootstrap</a> knowledge.</p>
+        </footer>
+    </div>
+    <!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
