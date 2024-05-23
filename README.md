@@ -8,6 +8,11 @@
 - changed variables and color palette
 
 ## Update (22.05.2024)
-
 - Deleted SCSS files
 - Used Bootstrap
+
+## Update (23.05.204)
+- Changed Layouts
+- Seperated Pages
+- Added New Page (learnin-exercises)
+- Updated Contents
