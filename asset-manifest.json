@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//kasimpasaoglu.github.io/kasimpasaoglu.github.io/static/css/main.fa46e3ce.css",
+    "main.js": "//kasimpasaoglu.github.io/kasimpasaoglu.github.io/static/js/main.da54485e.js",
+    "static/media/bootstrap-icons.woff?": "//kasimpasaoglu.github.io/kasimpasaoglu.github.io/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "//kasimpasaoglu.github.io/kasimpasaoglu.github.io/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "//kasimpasaoglu.github.io/kasimpasaoglu.github.io/index.html",
+    "main.fa46e3ce.css.map": "//kasimpasaoglu.github.io/kasimpasaoglu.github.io/static/css/main.fa46e3ce.css.map",
+    "main.da54485e.js.map": "//kasimpasaoglu.github.io/kasimpasaoglu.github.io/static/js/main.da54485e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa46e3ce.css",
+    "static/js/main.da54485e.js"
+  ]
+}
