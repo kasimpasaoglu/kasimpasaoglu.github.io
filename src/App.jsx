@@ -1,4 +1,4 @@
-import React, { useState, } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import SiteRoutes from './SiteRoutes';
 import Loading from './pages/Loading';
@@ -14,6 +14,14 @@ function App() {
             setShowApp(true);
         }, 0);
     };
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            handleLoadingComplete();
+        }, 5000); // 5 saniye sonra loading'i tamamla
+
+        return () => clearTimeout(timer); // Temizleme işlemi
+    }, []);
 
     if (isLoading) {
         return <Loading onLoadingComplete={handleLoadingComplete} />;
@@ -32,7 +40,5 @@ function App() {
         </div>
     );
 }
-
-
 
 export default App;
