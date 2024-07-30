@@ -1,0 +1,8 @@
+.contact-link {
+    font-size: 2rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-link:hover {
+    transform: translateY(-5px);
+}

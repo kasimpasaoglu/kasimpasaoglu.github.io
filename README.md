@@ -1,18 +1,8 @@
-# Kasim Pasaoglu
-- Hello, I'm Kasim. I have just started to learn front-end from begining
-- This is my first project to monitor improvements i had.
+# React + Vite
 
-## Update (16.05.2024)
-- Deleted simplecss to write my own CSS
-- Changed SCSS format
-- changed variables and color palette
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Update (22.05.2024)
-- Deleted SCSS files
-- Used Bootstrap
+Currently, two official plugins are available:
 
-## Update (23.05.204)
-- Changed Layouts
-- Seperated Pages
-- Added New Page (learnin-exercises)
-- Updated Contents
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

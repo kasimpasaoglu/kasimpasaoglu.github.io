@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    #profile {
+        display: flex;
+        justify-content: center;
+    }
+
+    #roadmap {
+        padding: 5px !important; 
+    }
+}
+

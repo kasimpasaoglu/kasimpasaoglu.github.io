@@ -1,0 +1,8 @@
+.App {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.App.fade-in {
+    opacity: 1;
+}
