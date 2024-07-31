@@ -22,7 +22,6 @@ Hi there! I'm Kasim Pasaoglu, and this portfolio is a showcase of my journey in 
 - CSS (including Bootstrap)
 - JavaScript
 - JSON
-- React (for some components)
 - GitHub Pages
 
 ## Contact
