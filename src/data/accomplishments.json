@@ -1,0 +1,145 @@
+[
+    {
+      "category": "INSTALLATION",
+      "items": [
+        "Windows Installation",
+        "macOs Installation"
+      ]
+    },
+    {
+      "category": "Note-taking methods, markdown, chrome usage, and productivity",
+      "items": [
+        "Notion",
+        "Markdown usage",
+        "Chrome Extensions"
+      ]
+    },
+    {
+      "category": "HTML",
+      "items": [
+        "Headings, paragraphs",
+        "Building HTML structure",
+        "Emmet shortcuts",
+        "Images, links",
+        "Tables",
+        "Other HTML tags"
+      ]
+    },
+    {
+      "category": "Effective usage of VS Code",
+      "items": [
+        "Settings",
+        "Shortcuts",
+        "Code Snippets"
+      ]
+    },
+    {
+      "category": "GIT, VCS, and GitHub",
+      "items": [
+        "What is VCS",
+        "Terminal commands",
+        "Working with multiple branches",
+        "Transferring projects to GitHub or importing projects from GitHub"
+      ]
+    },
+    {
+      "category": "CSS",
+      "items": [
+        "What is CSS",
+        "CSS Definitions",
+        "CSS Writing Rules",
+        "CSS Selectors",
+        "Understanding Block, Inline, and Inline Block Structures",
+        "Box Properties: Margin, Padding, Border, Width",
+        "Visibility",
+        "Hover",
+        "CSS Reset and Normalize",
+        "Usage of Background Image",
+        "Color Definitions",
+        "Text Properties",
+        "Font Size / Font Family",
+        "Float",
+        ":root Definitions",
+        "CSS Positions",
+        "Working with Media Queries",
+        "FlexBox and flex commands"
+      ]
+    },
+    {
+      "category": "SASS & SCSS",
+      "items": [
+        "What is SASS / SCSS? What are the Differences?",
+        "Using SCSS online and in a project.",
+        "SCSS Setup in VS Code",
+        "Using Variables, Import, Nesting",
+        "Using Parent Selector, Mixin, Extend",
+        "Using Interpolation, Each, For and Map",
+        "Using Lists to Store Multiple Variables",
+        "Using SCSS Color Functions"
+      ]
+    },
+    {
+      "category": "BOOTSTRAP",
+      "items": [
+        "What is Bootstrap",
+        "Exploring Bootstrap Features",
+        "Standardized Colors in Bootstrap",
+        "Concepts of UI and UX",
+        "Container and Grid System",
+        "Grid System in Responsive Structures",
+        "Using Reordering in Responsive Structures",
+        "Usage of Margin and Padding",
+        "Hiding and Showing Structures Responsively"
+      ]
+    },
+    {
+      "category": "JAVASCRIPT",
+      "items": [
+        "Variables and their different declarations (let, const, var)",
+        "Working with the boolean data type",
+        "Working with the number data type",
+        "Working with the string data type",
+        "Template literals",
+        "Data type conversions",
+        "Examples of prompt, alert, and confirm",
+        "DOM (Document)",
+        "Working with comments",
+        "Creating new elements in the DOM",
+        "Comparison operators",
+        "Working with conditions (if & short if)",
+        "While loop",
+        "Working with arrays",
+        "Functions",
+        "Arrow functions",
+        "Working with objects",
+        "Destructuring",
+        "Adding and removing CSS classes",
+        "DOM events",
+        "For and forEach loops",
+        "Managing forms with JS",
+        "Adding, removing, retrieving, and deleting data in Local Storage",
+        "Using array filter, map, and reduce",
+        "Using JSON stringify and parse",
+        "Working with the Fetch API",
+        "Single Page Application (SPA) with Hash Routing"
+      ]
+    },
+    {
+      "category": "REACT (In Progress...)",
+      "items": [
+        "What is React?",
+        "Setting up React with Vite",
+        "ReactJS - JSX Rules",
+        "Using Module Import/Export",
+        "Props",
+        "Conditional Rendering",
+        "Optional Chaining",
+        "Using state (useState)",
+        "Communication between components using useState and Props",
+        "Working with Forms",
+        "Using useEffect",
+        "Router Dom"
+      ]
+    }
+  ]
+  

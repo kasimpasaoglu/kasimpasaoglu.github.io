@@ -14,7 +14,6 @@
 *.sig
 
 pkg/
-src/
 
 ### Linux ###
 *~
@@ -130,3 +129,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+

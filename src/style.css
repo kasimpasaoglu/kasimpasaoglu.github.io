@@ -1,0 +1,16 @@
+@media (max-width:767px) {
+    #roadmapImg {
+        padding: 0 !important;
+    }
+    #profile {
+        text-align: center;
+    }
+}
+
+.contact-link {
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-link:hover {
+    transform: translateY(-10px);
+}
