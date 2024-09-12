@@ -24,6 +24,12 @@
     "img": "src/images/JsSpaExercise.png"
   },
   {
+    "title": "JS Form & To-Do List",
+    "description": "In this project, I created a dynamic form where users can input their information, which is then displayed on the screen. Additionally, a To-Do List creation interface is integrated, allowing users to add tasks. This exercise helped me enhance my JavaScript skills, particularly in managing form inputs and rendering dynamic content. The project demonstrates my ability to handle multiple functionalities within a single page application and improve user interactivity.",
+    "link": "https://js-form-exercise-1.netlify.app/",
+    "img": "src/images/jsformexercise.jpg"
+  },
+  {
     "title": "Bootstrap (Exercise)",
     "description": "By grasping the fundamentals and logic of Bootstrap, I created a page. Without establishing a custom CSS structure, I customized various usage examples by copying basic Bootstrap knowledge, tailoring them to my needs.",
     "link": "https://bootstraptraining-kasim.netlify.app/",
