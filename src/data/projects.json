@@ -46,11 +46,5 @@
     "description": "In this project, I delved into CSS fundamentals by replicating the PicoCSS structure with my own CSS code. By meticulously examining the PicoCSS documentation, I aimed to create my own CSS structure as closely as possible. This provided a valuable exercise in understanding CSS principles and techniques.",
     "link": "https://pico-clone-kasim.netlify.app/",
     "img": "src/images/picocss.png"
-  },
-  {
-    "title": "HTML (Exercise)",
-    "description": "This project was pivotal in honing my HTML skills. Leveraging only HTML and simple CSS through CDNs, I crafted a multi-page static website. Through this endeavor, I gained hands-on experience in structuring web content effectively and learned the fundamentals of website navigation.",
-    "link": "https://kasimpasaogluhtml.netlify.app/",
-    "img": "src/images/html1ss.png"
   }
 ]
